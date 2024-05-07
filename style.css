@@ -1,0 +1,43 @@
+body{
+    background-color: hsla(0, 6%, 93%, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    margin: auto;
+    border-radius: 5px;
+    max-width: 502px;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.304);
+}
+h1{
+   color: rgba(53, 53, 163, 0.656);
+}
+#temp{
+    margin-bottom:15px;
+    text-align: center;
+    font-size: 1.5em;
+}
+#submit{
+    padding: 10px 15px;
+    font-size: 1.5em;
+    background-color: hsla(0, 68%, 57%, 0.853);
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    transition: background-color 0.25s;
+}
+#submit:hover{
+    background-color: rgb(237, 50, 50);
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+p{
+    font-weight:bold;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
